@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 /home/luarss/anaconda3/bin/python train.py --backbone resnet --lr 0.007 --workers 4 --epochs 1 --batch-size 4 --gpu-ids 0 --checkname deeplab-resnet --eval-interval 1 --dataset pascal --no-val
